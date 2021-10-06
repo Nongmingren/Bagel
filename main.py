@@ -27,7 +27,6 @@ For example, if the secret number was 248 and your guess was 843, the clues woul
 
     while True:
         secret_number = random_secret_number()
-        print(f"secret_number: {secret_number}")
         print("I have thought up a number.")
         print(f" You have {MAX_GUESSES} guesses to get is.")
         num_guesses = 1
